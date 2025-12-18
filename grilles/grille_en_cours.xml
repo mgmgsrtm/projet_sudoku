@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sudoku>
     <row><!-- 1 -->
-        <cell>5</cell>
-        <cell>3</cell>
+        <cell value="5"></cell>
+        <cell value="3"></cell>
         <cell></cell>
         <cell></cell>
-        <cell>7</cell>
+        <cell value="7"></cell>
         <cell></cell>
         <cell></cell>
         <cell></cell>
         <cell></cell>
     </row>
     <row><!-- 2 -->
-        <cell>6</cell>
+        <cell value="6"></cell>
         <cell></cell>
         <cell></cell>
-        <cell>1</cell>
-        <cell>9</cell>
-        <cell>5</cell>
+        <cell value="1"></cell>
+        <cell value="9"></cell>
+        <cell value="5"></cell>
         <cell></cell>
         <cell></cell>
         <cell></cell>
