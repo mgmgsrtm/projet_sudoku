@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <sudoku>
     <row><!-- 1 -->
-        <cell>5</cell>
-        <cell></cell>
-        <cell>3</cell>
         <cell></cell>
         <cell></cell>
+        <cell></cell>
+        <cell></cell>
+        <cell>7</cell>
         <cell></cell>
         <cell></cell>
         <cell></cell>
