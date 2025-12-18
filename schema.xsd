@@ -16,7 +16,7 @@
     </xsd:complexType>
 
     <xsd:complexType name="cellType">
-        <xsd:attribute name="value" use="optional">
+        <xsd:attribute name="v" use="optional">
             <xsd:simpleType>
                 <xsd:restriction base="xsd:integer">
                     <xsd:minInclusive value="1"/>
