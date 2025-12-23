@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="sudoku" type="SudokuType"/>
+
+    <!-- pour la grille -->
+    <xsd:complexType name="SudokuType">
+        <xsd:sequence>
+            <xsd:element name="row" type="RowType" minOccurs="9" maxOccurs="9"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- pour une ligne -->
+    <xsd:complexType name="RowType">
+        <xsd:sequence>
+            <xsd:element name="cell" type="CellType" minOccurs="9" maxOccurs="9"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- pour une cellule -->
+    <xsd:complexType name="CellType">
+        <!-- "v" - valeur (1-9 ou vide) -->
+        <xsd:attribute name="v" type="CellValueType" use="optional"/>
+        
+        <!-- "fixed" - donnée initiale, par défaut false -->
+        <xsd:attribute name="fixed" type="xsd:boolean" use="optional" default="false"/>
+    </xsd:complexType>
+
+    <!-- type simple, de 1 à 9 -->
+    <xsd:simpleType name="CellValueType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="1"/>
+            <xsd:maxInclusive value="9"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- erreur dans un bloc 3x3, le chiffre 9 apparaît deux fois 
+  (ligne 2 colonne 2 et ligne 3 colonne 2) -->
+<sudoku xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="sudoku_schema.xsd">
+    
+    <row>
+        <cell v="5" fixed="true"/>
+        <cell v="3" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell v="7" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+    </row>
+    
+    <!-- erreur : 9 -->
+    <row>
+        <cell v="6" fixed="true"/>
+        <cell v="9"/>
+        <cell/>
+        <cell v="1" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+    </row>
+    
+    <!-- erreur : 9 -->
+    <row>
+        <cell/>
+        <cell v="9" fixed="true"/>
+        <cell v="8" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="6" fixed="true"/>
+        <cell/>
+    </row>
+    
+    <row>
+        <cell v="8" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="6" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="3" fixed="true"/>
+    </row>
+    
+    <row>
+        <cell v="4" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="3" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell v="1" fixed="true"/>
+    </row>
+    
+    <row>
+        <cell v="7" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="2" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="6" fixed="true"/>
+    </row>
+    
+    <row>
+        <cell/>
+        <cell v="6" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="2" fixed="true"/>
+        <cell v="8" fixed="true"/>
+        <cell/>
+    </row>
+    
+    <row>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="4" fixed="true"/>
+        <cell v="1" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+    </row>
+    
+    <row>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell v="8" fixed="true"/>
+        <cell/>
+        <cell/>
+        <cell v="7" fixed="true"/>
+        <cell/>
+    </row>
+    
+</sudoku>
