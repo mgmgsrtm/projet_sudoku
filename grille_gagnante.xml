@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- complètement et correctement remplie -->
+<sudoku xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="sudoku_schema.xsd">
+    
+    <!-- Ligne 1 -->
+    <row>
+        <cell v="8" fixed="true"/>
+        <cell v="1"/>
+        <cell v="3"/>
+        <cell v="9"/>
+        <cell v="2"/>
+        <cell v="5"/>
+        <cell v="7"/>
+        <cell v="4"/>
+        <cell v="6"/>
+    </row>
+    
+    <!-- Ligne 2 -->
+    <row>
+        <cell v="9"/>
+        <cell v="5"/>
+        <cell v="6"/>
+        <cell v="8"/>
+        <cell v="4"/>
+        <cell v="7"/>
+        <cell v="3"/>
+        <cell v="1"/>
+        <cell v="2"/>
+    </row>
+    
+    <row>
+        <cell v="4"/>
+        <cell v="7"/>
+        <cell v="2"/>
+        <cell v="3"/>
+        <cell v="6"/>
+        <cell v="1"/>
+        <cell v="8"/>
+        <cell v="9"/>
+        <cell v="5"/>
+    </row>
+    
+    <row>
+        <cell v="6"/>
+        <cell v="2"/>
+        <cell v="4"/>
+        <cell v="7"/>
+        <cell v="1"/>
+        <cell v="9"/>
+        <cell v="5"/>
+        <cell v="3"/>
+        <cell v="8"/>
+    </row>
+    
+    <row>
+        <cell v="7"/>
+        <cell v="9"/>
+        <cell v="5"/>
+        <cell v="6"/>
+        <cell v="3"/>
+        <cell v="8"/>
+        <cell v="4"/>
+        <cell v="2"/>
+        <cell v="1"/>
+    </row>
+    
+    <row>
+        <cell v="3"/>
+        <cell v="8"/>
+        <cell v="1"/>
+        <cell v="4"/>
+        <cell v="5"/>
+        <cell v="2"/>
+        <cell v="9"/>
+        <cell v="6"/>
+        <cell v="7"/>
+    </row>
+    
+    <row>
+        <cell v="2"/>
+        <cell v="3"/>
+        <cell v="8"/>
+        <cell v="1"/>
+        <cell v="7"/>
+        <cell v="4"/>
+        <cell v="6"/>
+        <cell v="5"/>
+        <cell v="9"/>
+    </row>
+    
+    <row>
+        <cell v="5"/>
+        <cell v="4"/>
+        <cell v="9"/>
+        <cell v="2"/>
+        <cell v="8"/>
+        <cell v="6"/>
+        <cell v="1"/>
+        <cell v="7"/>
+        <cell v="3"/>
+    </row>
+    
+    <row>
+        <cell v="1"/>
+        <cell v="6"/>
+        <cell v="7"/>
+        <cell v="5"/>
+        <cell v="9"/>
+        <cell v="3"/>
+        <cell v="2"/>
+        <cell v="8"/>
+        <cell v="4"/>
+    </row>
+    
+</sudoku>
