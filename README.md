@@ -117,7 +117,7 @@ xsltproc -o grille_erreur_colonne.svg sudoku_affichage.xslt grille_erreur_colonn
 **Test 9 : Erreur dans un bloc (vérification non réalisée)**
 ```bash
 xsltproc -o grille_erreur_bloc.svg sudoku_affichage.xslt grille_erreur_bloc.xml
-# Statut : CORRECTE
+# Statut : CORRECTE　(alors qu’il devrait être INCORRECT)
 ```
 **Test 10 : Positions possibles pour un chiffre**
 ```bash
