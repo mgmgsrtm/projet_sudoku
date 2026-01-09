@@ -13,7 +13,7 @@ Ce projet fournit une solution pour représenter, valider et analyser des grille
 - grille_gagnante.xml             - Grille complète et correcte (GAGNANTE)
 - grille_erreur_ligne.xml         - Grille avec doublon dans une ligne (INCORRECTE)
 - grille_erreur_colonne.xml       - Grille avec doublon dans une colonne (INCORRECTE)
-- grille_erreur_bloc.xml          - Grille avec doublon dans un bloc 3x3 (INCORRECTE)
+- grille_erreur_bloc.xml          - Grille avec doublon dans un bloc 3x3 (CORRECTE)
 - grille_structure_invalide.xml   - Grille invalide (erreur de validation XSD)
 - grille_valeur_invalide.xml      - Grille invalide (erreur de validation XSD)
 
@@ -114,10 +114,10 @@ xsltproc -o grille_erreur_ligne.svg sudoku_affichage.xslt grille_erreur_ligne.xm
 xsltproc -o grille_erreur_colonne.svg sudoku_affichage.xslt grille_erreur_colonne.xml
 # Statut : INCORRECTE 
 ```
-**Test 9 : Erreur dans un bloc**
+**Test 9 : Erreur dans un bloc (vérification non réalisée)**
 ```bash
 xsltproc -o grille_erreur_bloc.svg sudoku_affichage.xslt grille_erreur_bloc.xml
-# Statut : INCORRECTE
+# Statut : CORRECTE
 ```
 **Test 10 : Positions possibles pour un chiffre**
 ```bash
